@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body    {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+            background-image: linear-gradient(to right, lightgray, black);
+            
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 5px;
+             border-radius: 20px 0px;
+        }
+        nav {
+            background-color: rgb(149, 148, 148);
+            padding: 3px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.427);
+            border-radius: 10px 10px 10px 10px;
+        }
+        nav > a {
+            text-decoration:  none;
+            color: aliceblue;
+            font-weight: 600;
+            padding: 10px 20px 10px 20px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+        main    {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 5px;
+            
+            border-radius: 20px 0px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 20px 0px;
+            
+        }
+        article > aside {
+            background-color: rgb(177, 177, 177);
+
+        }
+        footer  {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.321);
+        }
+        footer  > p {
+            margin: 0px;
+        }
+        
+        h1  {
+            margin-top: 1px;
+            margin-bottom: 1px;
+            
+        }
+        h2  {
+            
+            padding:5px 0px 0px 5px ;
+            background-color: rgb(157, 156, 156);
+            border-radius: 20px 0px;
+        }
